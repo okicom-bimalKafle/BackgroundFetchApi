@@ -1,0 +1,28 @@
+{
+  "name": "worker_test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.31"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-s3": "^3.614.0",
+    "@aws-sdk/credential-provider-env": "^3.609.0",
+    "@aws-sdk/s3-request-presigner": "^3.614.0",
+    "@types/jest": "^29.5.12",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/cli-plugin-typescript": "^5.0.8",
+    "@vue/compiler-sfc": "^3.4.34",
+    "aws-sdk": "^2.1658.0",
+    "typescript": "^5.5.4",
+    "vite": "^5.3.4",
+    "vue-loader": "^17.4.2",
+    "vue-tsc": "^2.0.29"
+  }
+}
